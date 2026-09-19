@@ -255,7 +255,7 @@
     },
     {
       "key": "base_url",
-      "value": ""
+      "value": "https://ruchita-finance-api.onrender.com/api"
     }
   ]
 }
