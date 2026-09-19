@@ -1,7 +1,9 @@
 # API Documentation
 
 Base URL (local): `http://localhost:5000/api`
-Base URL (production): `<add link after deployment>`
+Base URL (production): `https://ruchita-finance-api.onrender.com/api`
+
+The curl examples below use the local URL. To try the live API, replace `http://localhost:5000/api` with the production base URL.
 
 ## Authentication
 

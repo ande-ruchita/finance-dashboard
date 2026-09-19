@@ -21,8 +21,12 @@ A full-stack web app to view, filter, sort, and export financial transactions. Y
 
 ## Live Demo
 
-- Frontend: `<add link after deployment>`
-- Backend API: `<add link after deployment>`
+- Frontend: https://ruchita-finance-dashboard.onrender.com
+- Backend API: https://ruchita-finance-api.onrender.com/api
+- Postman collection (Postman → Import → Link): https://raw.githubusercontent.com/ande-ruchita/finance-dashboard/main/postman/Finance-Dashboard-API.postman_collection.json
+- Demo login: `test@test.com` / `test1234`
+
+Note: the backend is on Render's free tier and sleeps when idle. The first request can take up to ~50 seconds.
 
 ## Project Structure
 
@@ -37,7 +41,7 @@ They are two separate apps that run independently and talk to each other over HT
 ## Prerequisites
 
 Before running this locally, you need:
-- Node.js (version 18 or higher) installed
+- Node.js 20.19+ or 22+ installed
 - A MongoDB database — either a free MongoDB Atlas cloud database, or MongoDB installed on your own machine
 
 ## How to Run It Locally
@@ -101,7 +105,7 @@ The frontend will now be running at `http://localhost:5173`.
 
 ## How to Log In
 
-There's no pre-made login account. To create one:
+On the live site, use the demo login above. For a local setup there's no pre-made account, so create one:
 
 1. Send a request to `POST http://localhost:5000/api/auth/register` with a body like:
    ```json
