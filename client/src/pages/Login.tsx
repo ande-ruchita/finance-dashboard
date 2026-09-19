@@ -102,7 +102,7 @@ export default function Login() {
                 fontSize: "16px",
               },
               "& .MuiOutlinedInput-root": {
-                backgroundColor: "#08090b",
+                backgroundColor: "#15181d",
                 "& fieldset": { borderColor: "#333" },
                 "&:hover fieldset": { borderColor: "#1ed760" },
                 "&.Mui-focused fieldset": { borderColor: "#1ed760" },
